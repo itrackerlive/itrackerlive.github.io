@@ -1,0 +1,1264 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>issue-tracker-frontend documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">issue-tracker-frontend documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>NotificationsComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/notifications/notifications.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-notifications</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./notifications.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./notifications.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#activePriority">activePriority</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#activeStatus">activeStatus</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#currentPage">currentPage</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#isNotificationsFetched">isNotificationsFetched</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#itemsPerPage">itemsPerPage</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#itemsPerPageOptions">itemsPerPageOptions</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#notifications">notifications</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#priority">priority</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#status">status</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#getAllNotifications">getAllNotifications</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#onClearAllNotifications">onClearAllNotifications</a>
+                            </li>
+                            <li>
+                                <a href="#onPriorityChange">onPriorityChange</a>
+                            </li>
+                            <li>
+                                <a href="#onStatusChange">onStatusChange</a>
+                            </li>
+                            <li>
+                                <a href="#updateNotification">updateNotification</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(appHttpService: <a href="../injectables/AppHttpService.html">AppHttpService</a>, loaderService: NgxUiLoaderService, utilService: <a href="../injectables/UtilService.html">UtilService</a>, toastrService: ToastrService)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/notifications/notifications.component.ts:31</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>appHttpService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/AppHttpService.html" target="_self" >AppHttpService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>loaderService</td>
+                                                  
+                                                        <td>
+                                                                    <code>NgxUiLoaderService</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>utilService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/UtilService.html" target="_self" >UtilService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>toastrService</td>
+                                                  
+                                                        <td>
+                                                                    <code>ToastrService</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getAllNotifications"></a>
+                    <span class="name">
+                        <b>
+                            getAllNotifications
+                        </b>
+                        <a href="#getAllNotifications"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getAllNotifications()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="43"
+                            class="link-to-prism">src/app/notifications/notifications.component.ts:43</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="37"
+                            class="link-to-prism">src/app/notifications/notifications.component.ts:37</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onClearAllNotifications"></a>
+                    <span class="name">
+                        <b>
+                            onClearAllNotifications
+                        </b>
+                        <a href="#onClearAllNotifications"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onClearAllNotifications()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="75"
+                            class="link-to-prism">src/app/notifications/notifications.component.ts:75</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onPriorityChange"></a>
+                    <span class="name">
+                        <b>
+                            onPriorityChange
+                        </b>
+                        <a href="#onPriorityChange"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onPriorityChange($event)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="65"
+                            class="link-to-prism">src/app/notifications/notifications.component.ts:65</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>$event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onStatusChange"></a>
+                    <span class="name">
+                        <b>
+                            onStatusChange
+                        </b>
+                        <a href="#onStatusChange"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onStatusChange($event)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="70"
+                            class="link-to-prism">src/app/notifications/notifications.component.ts:70</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>$event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="updateNotification"></a>
+                    <span class="name">
+                        <b>
+                            updateNotification
+                        </b>
+                        <a href="#updateNotification"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>updateNotification(data?: literal type)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="79"
+                            class="link-to-prism">src/app/notifications/notifications.component.ts:79</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>data</td>
+                                    <td>
+                                            <code>literal type</code>
+                                    </td>
+
+                                    <td>
+                                        Yes
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="activePriority"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            activePriority</b>
+                            <a href="#activePriority"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/notifications/notifications.component.ts:31</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="activeStatus"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            activeStatus</b>
+                            <a href="#activeStatus"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/app/notifications/notifications.component.ts:30</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="currentPage"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            currentPage</b>
+                            <a href="#currentPage"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>config.customPagination.currentPage</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/notifications/notifications.component.ts:16</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="isNotificationsFetched"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            isNotificationsFetched</b>
+                            <a href="#isNotificationsFetched"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/notifications/notifications.component.ts:19</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="itemsPerPage"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            itemsPerPage</b>
+                            <a href="#itemsPerPage"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>config.customPagination.itemsPerPage</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/notifications/notifications.component.ts:17</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="itemsPerPageOptions"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            itemsPerPageOptions</b>
+                            <a href="#itemsPerPageOptions"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>config.customPagination.itemsPerPageOptions</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/notifications/notifications.component.ts:18</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="notifications"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            notifications</b>
+                            <a href="#notifications"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/notifications/notifications.component.ts:15</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="priority"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            priority</b>
+                            <a href="#priority"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[
+    {title: &#x27;High&#x27;, value: &#x27;high&#x27;},
+    {title: &#x27;Low&#x27;, value: &#x27;low&#x27;},
+    {title: &#x27;All&#x27;, value: null}
+  ]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/app/notifications/notifications.component.ts:25</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="status"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            status</b>
+                            <a href="#status"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[
+    {title: &#x27;Unread&#x27;, value: &#x27;unread&#x27;},
+    {title: &#x27;Read&#x27;, value: &#x27;read&#x27;},
+    {title: &#x27;All&#x27;, value: null}
+  ]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">src/app/notifications/notifications.component.ts:20</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { AppHttpService } from &#x27;../shared/app-http.service&#x27;;
+import { NgxUiLoaderService } from &#x27;ngx-ui-loader&#x27;;
+import { config } from &#x27;../app.config&#x27;;
+import { UtilService } from &#x27;../shared/util.service&#x27;;
+import { ToastrService } from &#x27;ngx-toastr&#x27;;
+
+@Component({
+  selector: &#x27;app-notifications&#x27;,
+  templateUrl: &#x27;./notifications.component.html&#x27;,
+  styleUrls: [&#x27;./notifications.component.scss&#x27;]
+})
+export class NotificationsComponent implements OnInit {
+
+  public notifications;
+  private currentPage &#x3D; config.customPagination.currentPage;
+  private itemsPerPage &#x3D; config.customPagination.itemsPerPage;
+  private itemsPerPageOptions &#x3D; config.customPagination.itemsPerPageOptions;
+  public isNotificationsFetched &#x3D; false;
+  public status &#x3D; [
+    {title: &#x27;Unread&#x27;, value: &#x27;unread&#x27;},
+    {title: &#x27;Read&#x27;, value: &#x27;read&#x27;},
+    {title: &#x27;All&#x27;, value: null}
+  ];
+  public priority &#x3D; [
+    {title: &#x27;High&#x27;, value: &#x27;high&#x27;},
+    {title: &#x27;Low&#x27;, value: &#x27;low&#x27;},
+    {title: &#x27;All&#x27;, value: null}
+  ];
+  public activeStatus;
+  public activePriority;
+  constructor(private appHttpService: AppHttpService,
+              private loaderService: NgxUiLoaderService,
+              private utilService: UtilService,
+              private toastrService: ToastrService) { }
+
+  ngOnInit() {
+    this.activeStatus &#x3D; this.status[0].value;
+    this.activePriority &#x3D; this.priority[0].value;
+    this.getAllNotifications();
+  }
+
+  getAllNotifications() {
+    this.loaderService.start();
+    this.appHttpService.getUserNotifications(this.activeStatus, this.activePriority).subscribe(response &#x3D;&gt; {
+      this.isNotificationsFetched &#x3D; true;
+      if (response.data) {
+        this.notifications &#x3D; response.data.map(notification &#x3D;&gt; {
+          notification.message &#x3D; notification.message.replace(&#x27;***&#x27;, &#x27;&#x27;);
+          notification.message &#x3D; notification.message.replace(&#x27;###&#x27;, &#x27;&#x27;);
+          let date &#x3D; notification.createdDate || null;
+          notification.createdDate &#x3D; this.utilService.formatDate(new Date(date).toISOString());
+          return notification;
+        });
+      } else {
+        this.notifications &#x3D; null;
+      }
+      this.loaderService.stop();
+    }, err &#x3D;&gt; {
+      this.isNotificationsFetched &#x3D; true;
+      this.loaderService.stop();
+    });
+  }
+
+  onPriorityChange($event) {
+    this.activePriority &#x3D; $event.target.value;
+    this.getAllNotifications();
+  }
+
+  onStatusChange($event) {
+    this.activeStatus &#x3D; $event.target.value;
+    this.getAllNotifications();
+  }
+
+  onClearAllNotifications() {
+    this.updateNotification();
+  }
+
+  updateNotification(data?: {criteria: string, notificationId: string} ) {
+    this.loaderService.start();
+    this.appHttpService.updateNotification(data).subscribe(response &#x3D;&gt; {
+      this.toastrService.success(response.message);
+      this.activeStatus &#x3D; this.status[0].value;
+      this.getAllNotifications();
+      this.loaderService.stop();
+    }, err &#x3D;&gt; this.loaderService.stop());
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;ngx-ui-loader&gt;&lt;/ngx-ui-loader&gt;
+&lt;app-sidebar&gt;&lt;/app-sidebar&gt;
+&lt;aside *ngIf&#x3D;&quot;isNotificationsFetched&quot;&gt;
+  &lt;div class&#x3D;&quot;filters&quot;&gt;
+    &lt;div class&#x3D;&quot;left&quot;&gt;
+      &lt;div class&#x3D;&quot;status-group&quot;&gt;
+        &lt;h5&gt;Status:&lt;/h5&gt;
+        &lt;label class&#x3D;&quot;radio-container&quot; *ngFor&#x3D;&quot;let input of status&quot;&gt;
+          &lt;input type&#x3D;&quot;radio&quot; class&#x3D;&quot;radio-btn&quot; name&#x3D;&quot;status&quot; [value]&#x3D;&quot;input.value&quot; [checked]&#x3D;&quot;activeStatus&#x3D;&#x3D;input.value&quot; (change)&#x3D;&quot;onStatusChange($event)&quot;&gt;&lt;span&gt;{{input.title}}&lt;/span&gt;
+          &lt;span class&#x3D;&quot;check&quot;&gt;&lt;/span&gt;
+        &lt;/label&gt;
+      &lt;/div&gt;
+      &lt;div class&#x3D;&quot;priority-group&quot;&gt;
+        &lt;h5&gt;Priority:&lt;/h5&gt;
+        &lt;label class&#x3D;&quot;radio-container&quot; *ngFor&#x3D;&quot;let input of priority&quot;&gt;
+          &lt;input type&#x3D;&quot;radio&quot; class&#x3D;&quot;radio-btn&quot; name&#x3D;&quot;priority&quot; [value]&#x3D;&quot;input.value&quot; [checked]&#x3D;&quot;activePriority&#x3D;&#x3D;input.value&quot; (change)&#x3D;&quot;onPriorityChange($event)&quot;&gt;&lt;span&gt;{{input.title}}&lt;/span&gt;
+          &lt;span class&#x3D;&quot;check&quot;&gt;&lt;/span&gt;
+        &lt;/label&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;right&quot;&gt;
+      &lt;button class&#x3D;&quot;action-btn btn btn-success&quot; (click)&#x3D;&quot;onClearAllNotifications()&quot; title&#x3D;&quot;All unread notifications will be marked as read&quot;&gt;clear all notifications&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class&#x3D;&quot;notifications&quot; *ngIf&#x3D;&quot;notifications &amp;&amp; notifications.length &gt; 0;else no_notifications&quot;&gt;
+    &lt;div class&#x3D;&quot;notification&quot; *ngFor&#x3D;&quot;let notification of notifications | paginate: { itemsPerPage: itemsPerPage, currentPage: currentPage }&quot;&gt;
+      &lt;span class&#x3D;&quot;date&quot;&gt;{{ notification.createdDate }}&lt;/span&gt;
+      &lt;a [routerLink]&#x3D;&quot;[&#x27;/statistics&#x27;, notification.sender.userId]&quot; title&#x3D;&quot;{{notification.sender.firstName}} {{notification.sender.lastName}}&quot;&gt;&lt;span&gt;&lt;fa name&#x3D;&quot;user&quot;&gt;&lt;/fa&gt;&lt;/span&gt; 
+        {{notification.sender.firstName}} {{notification.sender.lastName}}&lt;/a&gt; {{notification.message}}
+        &lt;a *ngIf&#x3D;&quot;notification.type &#x3D;&#x3D; &#x27;project&#x27;&quot; 
+            [routerLink]&#x3D;&quot;[&#x27;/project&#x27;, notification.project.id]&quot; title&#x3D;&quot;{{notification.project.title}}&quot;&gt;&lt;span&gt;&lt;fa name&#x3D;&quot;code-camp&quot;&gt;&lt;/fa&gt;&lt;/span&gt; {{notification.project.title}}&lt;/a&gt;
+            &lt;a *ngIf&#x3D;&quot;notification.type &#x3D;&#x3D; &#x27;issue&#x27;&quot; 
+            [routerLink]&#x3D;&quot;[&#x27;/issue&#x27;, notification.issue.id]&quot; title&#x3D;&quot;{{notification.issue.title}}&quot;&gt;&lt;span&gt;&lt;fa name&#x3D;&quot;bolt&quot;&gt;&lt;/fa&gt;&lt;/span&gt; {{notification.issue.title}}&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;custom-pagination-controls&quot;&gt;
+      &lt;pagination-controls class&#x3D;&quot;custom-pagination&quot; (pageChange)&#x3D;&quot;currentPage &#x3D; $event&quot;&gt;&lt;/pagination-controls&gt;
+      &lt;div class&#x3D;&quot;custom-select-form&quot;&gt;
+        &lt;label&gt;Records Per Page&lt;/label&gt;
+        &lt;select class&#x3D;&quot;pagination-select&quot; [(ngModel)]&#x3D;&quot;itemsPerPage&quot;&gt;
+          &lt;option *ngFor&#x3D;&quot;let option of itemsPerPageOptions&quot; [value]&#x3D;&quot;option&quot;&gt;{{ option }}&lt;/option&gt;
+        &lt;/select&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;ng-template #no_notifications&gt;
+    &lt;div class&#x3D;&quot;no-result&quot;&gt;
+        &lt;fa name&#x3D;&quot;smile-o&quot;&gt;&lt;/fa&gt;
+        &lt;h2&gt;No Result Found!!!&lt;/h2&gt;
+    &lt;/div&gt;
+  &lt;/ng-template&gt;
+&lt;/aside&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./notifications.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">@import &#x27;variables&#x27;;
+@import &#x27;mixins&#x27;;
+
+aside {
+    @include aside();
+    padding: 0rem;
+    .notifications {
+        margin: 1rem;
+        @media screen and (max-width: 768px) {
+            margin: .75rem 0;
+        }
+    }
+    .filters {
+        display: flex;
+        width: 100%;
+        padding: 1.5rem;
+        justify-content: space-between;
+        color: $white;
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+            padding: 0;
+        }
+        .left {
+            width: calc(75% - 3rem);
+            display: flex;
+            justify-content: space-evenly;
+            @media screen and (max-width: 768px) {
+                width: 100%;
+                flex-direction: column;
+                .status-group, .priority-group {
+                    margin: .5rem 0;
+                }
+            }
+        }
+        .right {
+            width: calc(25% - 3rem);
+            @media screen and (max-width: 768px) {
+                width: 100%;
+            }
+        }
+        h5 {
+            display: inline-block;
+            margin: 0 1rem;
+            @media screen and (max-width: 768px) {
+                display: block;
+                margin: .5rem 0;
+            }
+        }
+        /* radio buttons styling */
+        .radio-container {
+            display: inline-block;
+            position: relative;
+            padding-left: 1.75rem;
+            margin: 0 .5rem;
+            cursor: pointer;
+            font-size: 1rem;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            input {
+                position: absolute;
+                opacity: 0;
+                cursor: pointer;
+                height: 0;
+                width: 0;
+            }
+            span:not(.check) {
+                position: relative;
+                top: 2px;
+            }
+            .check {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 25px;
+                width: 25px;
+                background-color: #eee;
+                border-radius: 50%;
+                &amp;:after {
+                    content: &quot;&quot;;
+                    position: absolute;
+                    display: none;
+                    top: 9px;
+                    left: 9px;
+                    width: .5rem;
+                    height: .5rem;
+                    border-radius: 50%;
+                    background: $white;
+                }
+            }
+          }
+          
+          /* On mouse-over, add a grey background color */
+          .radio-container:hover input ~ .check {
+            background-color: #ccc;
+          }
+          
+          /* When the checkbox is checked, add a blue background */
+          .radio-container input:checked ~ .check {
+            background-color: $primary-pink;
+          }
+          
+          /* Show the checkmark when checked */
+          .radio-container input:checked ~ .check:after {
+            display: block;
+          }
+    }
+    .notification {
+        margin-bottom: 1rem;
+        padding: 1rem;
+        background: rgba(255,255,255,.8);
+        border: 1px solid $orange;
+        border-radius: .4rem;
+        color: darken($primary-bg, 5%);
+        a {
+            color: $orange;
+            &amp;:hover {
+                color: darken($orange, 5%);
+            }
+        }
+        .action-btn {
+            background: $primary-pink;
+            color: $white;
+            font-weight: 700;
+            margin: .25rem;
+        }
+        &amp; &gt; span {
+            display: block;
+            text-align: right;
+        }
+    }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><ngx-ui-loader></ngx-ui-loader><app-sidebar></app-sidebar><aside *ngIf="isNotificationsFetched">  <div class="filters">    <div class="left">      <div class="status-group">        <h5>Status:</h5>        <label class="radio-container" *ngFor="let input of status">          <input type="radio" class="radio-btn" name="status" [value]="input.value" [checked]="activeStatus==input.value" (change)="onStatusChange($event)"><span>{{input.title}}</span>          <span class="check"></span>        </label>      </div>      <div class="priority-group">        <h5>Priority:</h5>        <label class="radio-container" *ngFor="let input of priority">          <input type="radio" class="radio-btn" name="priority" [value]="input.value" [checked]="activePriority==input.value" (change)="onPriorityChange($event)"><span>{{input.title}}</span>          <span class="check"></span>        </label>      </div>    </div>    <div class="right">      <button class="action-btn btn btn-success" (click)="onClearAllNotifications()" title="All unread notifications will be marked as read">clear all notifications</button>    </div>  </div>  <div class="notifications" *ngIf="notifications && notifications.length > 0;else no_notifications">    <div class="notification" *ngFor="let notification of notifications | paginate: { itemsPerPage: itemsPerPage, currentPage: currentPage }">      <span class="date">{{ notification.createdDate }}</span>      <a [routerLink]="[\'/statistics\', notification.sender.userId]" title="{{notification.sender.firstName}} {{notification.sender.lastName}}"><span><fa name="user"></fa></span>         {{notification.sender.firstName}} {{notification.sender.lastName}}</a> {{notification.message}}        <a *ngIf="notification.type == \'project\'"             [routerLink]="[\'/project\', notification.project.id]" title="{{notification.project.title}}"><span><fa name="code-camp"></fa></span> {{notification.project.title}}</a>            <a *ngIf="notification.type == \'issue\'"             [routerLink]="[\'/issue\', notification.issue.id]" title="{{notification.issue.title}}"><span><fa name="bolt"></fa></span> {{notification.issue.title}}</a>    </div>    <div class="custom-pagination-controls">      <pagination-controls class="custom-pagination" (pageChange)="currentPage = $event"></pagination-controls>      <div class="custom-select-form">        <label>Records Per Page</label>        <select class="pagination-select" [(ngModel)]="itemsPerPage">          <option *ngFor="let option of itemsPerPageOptions" [value]="option">{{ option }}</option>        </select>      </div>    </div>  </div>  <ng-template #no_notifications>    <div class="no-result">        <fa name="smile-o"></fa>        <h2>No Result Found!!!</h2>    </div>  </ng-template></aside></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ContactUsComponent', 'selector': 'app-contact-us'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'ForgotPasswordComponent', 'selector': 'app-forgot-password'},{'name': 'IssueComponent', 'selector': 'app-issue'},{'name': 'IssueFormComponent', 'selector': 'app-issue-form'},{'name': 'IssuesComponent', 'selector': 'app-issues'},{'name': 'NotificationsComponent', 'selector': 'app-notifications'},{'name': 'OverviewComponent', 'selector': 'app-overview'},{'name': 'PageNotFoundComponent', 'selector': 'app-page-not-found'},{'name': 'ProjectComponent', 'selector': 'app-project'},{'name': 'ProjectFormComponent', 'selector': 'app-project-form'},{'name': 'ProjectsComponent', 'selector': 'app-projects'},{'name': 'ResetPasswordComponent', 'selector': 'app-reset-password'},{'name': 'SidebarComponent', 'selector': 'app-sidebar'},{'name': 'SignInComponent', 'selector': 'app-sign-in'},{'name': 'SignUpComponent', 'selector': 'app-sign-up'},{'name': 'StatisticsComponent', 'selector': 'app-statistics'},{'name': 'WelcomeComponent', 'selector': 'app-welcome'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'NotificationsComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'NotificationsComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

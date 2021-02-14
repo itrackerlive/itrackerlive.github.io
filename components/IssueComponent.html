@@ -1,0 +1,3316 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>issue-tracker-frontend documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">issue-tracker-frontend documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>IssueComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/issues/issue/issue.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-issue</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./issue.component.scss,<br>../../../styles/_foundation-theme.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./issue.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#allComments">allComments</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#attachmentPreview">attachmentPreview</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#backupTitle">backupTitle</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#commentConfig">commentConfig</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#currentUserId">currentUserId</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#currentUserName">currentUserName</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#galleryImages">galleryImages</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#galleryOptions">galleryOptions</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#isAssigneeEditing">isAssigneeEditing</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#issueComment">issueComment</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#issueDetails">issueDetails</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#issueDuration">issueDuration</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#issueId">issueId</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#isTitleEditing">isTitleEditing</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#labels">labels</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#priorityGroup">priorityGroup</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#statusGroup">statusGroup</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#textEditorConfig">textEditorConfig</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#user">user</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#users">users</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#getAllLabels">getAllLabels</a>
+                            </li>
+                            <li>
+                                <a href="#getAllUsers">getAllUsers</a>
+                            </li>
+                            <li>
+                                <a href="#getComments">getComments</a>
+                            </li>
+                            <li>
+                                <a href="#getIssueById">getIssueById</a>
+                            </li>
+                            <li>
+                                <a href="#getNotificationReceivers">getNotificationReceivers</a>
+                            </li>
+                            <li>
+                                <a href="#isAssignee">isAssignee</a>
+                            </li>
+                            <li>
+                                <a href="#isOutSideUser">isOutSideUser</a>
+                            </li>
+                            <li>
+                                <a href="#isReporter">isReporter</a>
+                            </li>
+                            <li>
+                                <a href="#isWatcher">isWatcher</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#onAddComment">onAddComment</a>
+                            </li>
+                            <li>
+                                <a href="#onAddLabel">onAddLabel</a>
+                            </li>
+                            <li>
+                                <a href="#onAddWatcher">onAddWatcher</a>
+                            </li>
+                            <li>
+                                <a href="#onCancelUpdateAssignee">onCancelUpdateAssignee</a>
+                            </li>
+                            <li>
+                                <a href="#onCancelUpdateTitle">onCancelUpdateTitle</a>
+                            </li>
+                            <li>
+                                <a href="#onEditTitleIcon">onEditTitleIcon</a>
+                            </li>
+                            <li>
+                                <a href="#onPriorityChange">onPriorityChange</a>
+                            </li>
+                            <li>
+                                <a href="#onRemoveLabel">onRemoveLabel</a>
+                            </li>
+                            <li>
+                                <a href="#onRemoveWatcher">onRemoveWatcher</a>
+                            </li>
+                            <li>
+                                <a href="#onStatusChange">onStatusChange</a>
+                            </li>
+                            <li>
+                                <a href="#onUpdateAssignee">onUpdateAssignee</a>
+                            </li>
+                            <li>
+                                <a href="#onUpdateIssueDescription">onUpdateIssueDescription</a>
+                            </li>
+                            <li>
+                                <a href="#onUpdateTitle">onUpdateTitle</a>
+                            </li>
+                            <li>
+                                <a href="#updateIssueActivity">updateIssueActivity</a>
+                            </li>
+                            <li>
+                                <a href="#updatePrivilieges">updatePrivilieges</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(route: <a href="https://angular.io/api/router/ActivatedRoute" target="_blank">ActivatedRoute</a>, router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>, utilService: <a href="../injectables/UtilService.html">UtilService</a>, httpService: <a href="../injectables/AppHttpService.html">AppHttpService</a>, loaderService: NgxUiLoaderService, toastrService: ToastrService, authService: <a href="../injectables/AuthService.html">AuthService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="40" class="link-to-prism">src/app/issues/issue/issue.component.ts:40</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>route</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/ActivatedRoute" target="_blank" >ActivatedRoute</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>utilService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/UtilService.html" target="_self" >UtilService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>httpService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/AppHttpService.html" target="_self" >AppHttpService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>loaderService</td>
+                                                  
+                                                        <td>
+                                                                    <code>NgxUiLoaderService</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>toastrService</td>
+                                                  
+                                                        <td>
+                                                                    <code>ToastrService</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>authService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/AuthService.html" target="_self" >AuthService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getAllLabels"></a>
+                    <span class="name">
+                        <b>
+                            getAllLabels
+                        </b>
+                        <a href="#getAllLabels"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getAllLabels()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="123"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:123</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getAllUsers"></a>
+                    <span class="name">
+                        <b>
+                            getAllUsers
+                        </b>
+                        <a href="#getAllUsers"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getAllUsers()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="117"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:117</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getComments"></a>
+                    <span class="name">
+                        <b>
+                            getComments
+                        </b>
+                        <a href="#getComments"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getComments()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="108"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:108</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getIssueById"></a>
+                    <span class="name">
+                        <b>
+                            getIssueById
+                        </b>
+                        <a href="#getIssueById"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getIssueById()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="71"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:71</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getNotificationReceivers"></a>
+                    <span class="name">
+                        <b>
+                            getNotificationReceivers
+                        </b>
+                        <a href="#getNotificationReceivers"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getNotificationReceivers()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="377"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:377</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>{}</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isAssignee"></a>
+                    <span class="name">
+                        <b>
+                            isAssignee
+                        </b>
+                        <a href="#isAssignee"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>isAssignee()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="411"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:411</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isOutSideUser"></a>
+                    <span class="name">
+                        <b>
+                            isOutSideUser
+                        </b>
+                        <a href="#isOutSideUser"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>isOutSideUser()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="434"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:434</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isReporter"></a>
+                    <span class="name">
+                        <b>
+                            isReporter
+                        </b>
+                        <a href="#isReporter"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>isReporter()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="419"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:419</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isWatcher"></a>
+                    <span class="name">
+                        <b>
+                            isWatcher
+                        </b>
+                        <a href="#isWatcher"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>isWatcher()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="426"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:426</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="51"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:51</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onAddComment"></a>
+                    <span class="name">
+                        <b>
+                            onAddComment
+                        </b>
+                        <a href="#onAddComment"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onAddComment()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="323"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:323</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onAddLabel"></a>
+                    <span class="name">
+                        <b>
+                            onAddLabel
+                        </b>
+                        <a href="#onAddLabel"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onAddLabel($event)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="239"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:239</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>$event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onAddWatcher"></a>
+                    <span class="name">
+                        <b>
+                            onAddWatcher
+                        </b>
+                        <a href="#onAddWatcher"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onAddWatcher($event, selfWatching)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="189"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:189</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                    <td>Default value</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>$event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+                                    <td>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>selfWatching</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+                                    <td>
+                                        <code>false</code>
+                                    </td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onCancelUpdateAssignee"></a>
+                    <span class="name">
+                        <b>
+                            onCancelUpdateAssignee
+                        </b>
+                        <a href="#onCancelUpdateAssignee"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onCancelUpdateAssignee()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="182"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:182</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onCancelUpdateTitle"></a>
+                    <span class="name">
+                        <b>
+                            onCancelUpdateTitle
+                        </b>
+                        <a href="#onCancelUpdateTitle"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onCancelUpdateTitle()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="368"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:368</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onEditTitleIcon"></a>
+                    <span class="name">
+                        <b>
+                            onEditTitleIcon
+                        </b>
+                        <a href="#onEditTitleIcon"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onEditTitleIcon()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="341"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:341</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onPriorityChange"></a>
+                    <span class="name">
+                        <b>
+                            onPriorityChange
+                        </b>
+                        <a href="#onPriorityChange"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onPriorityChange($event)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="276"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:276</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>$event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onRemoveLabel"></a>
+                    <span class="name">
+                        <b>
+                            onRemoveLabel
+                        </b>
+                        <a href="#onRemoveLabel"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onRemoveLabel($event)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="255"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:255</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>$event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onRemoveWatcher"></a>
+                    <span class="name">
+                        <b>
+                            onRemoveWatcher
+                        </b>
+                        <a href="#onRemoveWatcher"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onRemoveWatcher($event, selfWatching)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="212"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:212</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                    <td>Default value</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>$event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+                                    <td>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>selfWatching</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+                                    <td>
+                                        <code>false</code>
+                                    </td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onStatusChange"></a>
+                    <span class="name">
+                        <b>
+                            onStatusChange
+                        </b>
+                        <a href="#onStatusChange"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onStatusChange($event)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="291"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:291</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>$event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onUpdateAssignee"></a>
+                    <span class="name">
+                        <b>
+                            onUpdateAssignee
+                        </b>
+                        <a href="#onUpdateAssignee"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onUpdateAssignee($event, isSaveBtn)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="140"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:140</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                    <td>Default value</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>$event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+                                    <td>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>isSaveBtn</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+                                    <td>
+                                        <code>false</code>
+                                    </td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onUpdateIssueDescription"></a>
+                    <span class="name">
+                        <b>
+                            onUpdateIssueDescription
+                        </b>
+                        <a href="#onUpdateIssueDescription"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onUpdateIssueDescription()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="306"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:306</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onUpdateTitle"></a>
+                    <span class="name">
+                        <b>
+                            onUpdateTitle
+                        </b>
+                        <a href="#onUpdateTitle"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onUpdateTitle()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="346"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:346</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="updateIssueActivity"></a>
+                    <span class="name">
+                        <b>
+                            updateIssueActivity
+                        </b>
+                        <a href="#updateIssueActivity"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>updateIssueActivity(issueId, msg: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="381"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:381</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>issueId</td>
+                                    <td>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>msg</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="updatePrivilieges"></a>
+                    <span class="name">
+                        <b>
+                            updatePrivilieges
+                        </b>
+                        <a href="#updatePrivilieges"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>updatePrivilieges()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="392"
+                            class="link-to-prism">src/app/issues/issue/issue.component.ts:392</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="allComments"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            allComments</b>
+                            <a href="#allComments"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="37" class="link-to-prism">src/app/issues/issue/issue.component.ts:37</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="attachmentPreview"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            attachmentPreview</b>
+                            <a href="#attachmentPreview"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="38" class="link-to-prism">src/app/issues/issue/issue.component.ts:38</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="backupTitle"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            backupTitle</b>
+                            <a href="#backupTitle"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="40" class="link-to-prism">src/app/issues/issue/issue.component.ts:40</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="commentConfig"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            commentConfig</b>
+                            <a href="#commentConfig"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>Object.assign({}, textEditorConfig)</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/app/issues/issue/issue.component.ts:28</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="currentUserId"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            currentUserId</b>
+                            <a href="#currentUserId"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>this.authService.getUserId()</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="29" class="link-to-prism">src/app/issues/issue/issue.component.ts:29</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="currentUserName"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            currentUserName</b>
+                            <a href="#currentUserName"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>this.authService.getUsername()</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/app/issues/issue/issue.component.ts:30</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="galleryImages"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            galleryImages</b>
+                            <a href="#galleryImages"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>NgxGalleryImage[]</code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/issues/issue/issue.component.ts:32</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="galleryOptions"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            galleryOptions</b>
+                            <a href="#galleryOptions"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>galleryConfig</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/issues/issue/issue.component.ts:31</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="isAssigneeEditing"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            isAssigneeEditing</b>
+                            <a href="#isAssigneeEditing"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="35" class="link-to-prism">src/app/issues/issue/issue.component.ts:35</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="issueComment"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            issueComment</b>
+                            <a href="#issueComment"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="36" class="link-to-prism">src/app/issues/issue/issue.component.ts:36</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="issueDetails"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            issueDetails</b>
+                            <a href="#issueDetails"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/Issue.html" target="_self" >Issue</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/app/issues/issue/issue.component.ts:25</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="issueDuration"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            issueDuration</b>
+                            <a href="#issueDuration"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/app/issues/issue/issue.component.ts:26</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="issueId"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            issueId</b>
+                            <a href="#issueId"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/issues/issue/issue.component.ts:23</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="isTitleEditing"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            isTitleEditing</b>
+                            <a href="#isTitleEditing"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="39" class="link-to-prism">src/app/issues/issue/issue.component.ts:39</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="labels"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            labels</b>
+                            <a href="#labels"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="24" class="link-to-prism">src/app/issues/issue/issue.component.ts:24</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="priorityGroup"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            priorityGroup</b>
+                            <a href="#priorityGroup"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>config.filtersForm.priorityGroup.slice()</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/app/issues/issue/issue.component.ts:34</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="statusGroup"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            statusGroup</b>
+                            <a href="#statusGroup"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>config.filtersForm.issueGroup.slice()</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="33" class="link-to-prism">src/app/issues/issue/issue.component.ts:33</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="textEditorConfig"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            textEditorConfig</b>
+                            <a href="#textEditorConfig"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>Object.assign({}, textEditorConfig)</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/issues/issue/issue.component.ts:27</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="user"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            user</b>
+                            <a href="#user"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="22" class="link-to-prism">src/app/issues/issue/issue.component.ts:22</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="users"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            users</b>
+                            <a href="#users"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="21" class="link-to-prism">src/app/issues/issue/issue.component.ts:21</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { ActivatedRoute, Router } from &#x27;@angular/router&#x27;;
+import { UtilService } from &#x27;../../shared/util.service&#x27;;
+import { AppHttpService } from &#x27;src/app/shared/app-http.service&#x27;;
+import { IssueDetailsResponse, UsersResponse } from &#x27;src/app/shared/response.interface&#x27;;
+import { NgxUiLoaderService } from &#x27;ngx-ui-loader&#x27;;
+import { ToastrService } from &#x27;ngx-toastr&#x27;;
+import { Issue, Comment } from &#x27;src/app/shared/models&#x27;;
+import { textEditorConfig, galleryConfig } from &#x27;src/app/shared/libraries.config&#x27;;
+import { AuthService } from &#x27;src/app/auth/shared/auth.service&#x27;;
+import {  NgxGalleryImage } from &#x27;ngx-gallery&#x27;;
+import { config } from &#x27;../../app.config&#x27;;
+
+@Component({
+  selector: &#x27;app-issue&#x27;,
+  templateUrl: &#x27;./issue.component.html&#x27;,
+  styleUrls: [&#x27;./issue.component.scss&#x27;, &#x27;../../../styles/_foundation-theme.scss&#x27;]
+})
+export class IssueComponent implements OnInit {
+
+  public users;
+  public user;
+  public issueId;
+  public labels;
+  public issueDetails: Issue;
+  public issueDuration; // holds duration of issue in active state
+  public textEditorConfig &#x3D; Object.assign({}, textEditorConfig);
+  public commentConfig &#x3D; Object.assign({}, textEditorConfig);
+  public currentUserId &#x3D; this.authService.getUserId();
+  public currentUserName &#x3D; this.authService.getUsername();
+  public galleryOptions &#x3D; galleryConfig;
+  public galleryImages: NgxGalleryImage[];
+  public statusGroup &#x3D; config.filtersForm.issueGroup.slice();
+  public priorityGroup &#x3D; config.filtersForm.priorityGroup.slice();
+  public isAssigneeEditing &#x3D; false; // will be updated when user clicks on edit icon beside assignee
+  public issueComment; // two way binding with comment editor
+  public allComments; // holds all comments of issue
+  public attachmentPreview; // attachment thumbnail
+  public isTitleEditing &#x3D; false; // will be updated when user clicks on edit icon beside title
+  public backupTitle;
+  constructor(private route: ActivatedRoute,
+    private router: Router,
+    private utilService: UtilService,
+    private httpService: AppHttpService,
+    private loaderService: NgxUiLoaderService,
+    private toastrService: ToastrService,
+    private authService: AuthService) {
+      this.commentConfig.heightMin &#x3D; 150;
+  }
+
+  ngOnInit() {
+    this.loaderService.start();
+    this.statusGroup.shift(); // no need to keep &#x27;All&#x27; in issue status form
+    this.priorityGroup.shift();
+    this.route.paramMap.subscribe(params &#x3D;&gt; {
+      // need to get project details from id
+      this.issueId &#x3D; params.get(&#x27;id&#x27;);
+      if (this.issueId &amp;&amp; typeof this.issueId !&#x3D;&#x3D; &#x27;undefined&#x27;) {
+        this.getIssueById();
+      } else {
+        this.router.navigate([&#x27;/issues&#x27;]);
+      }
+    });
+    this.getAllUsers();
+    this.getAllLabels();
+  }
+
+  // ############################################################################### //
+  // *************************** MAIN METHODS ************************************* //
+  // ############################################################################## //
+  getIssueById() {
+    this.httpService.getIssueById(this.issueId).subscribe((response: IssueDetailsResponse) &#x3D;&gt; {
+      this.getComments();
+      this.issueDetails &#x3D; {
+        issueId: response.data.issueId,
+        title: response.data.title,
+        assignee: response.data.assignee,
+        formAssignee: this.utilService.mapUserDataToForm([response.data.assignee]),
+        reporter: response.data.reporter,
+        status: response.data.status,
+        priority: response.data.priority,
+        project: response.data.project,
+        description: response.data.description,
+        watchers: response.data.watchers,
+        formWatchers: this.utilService.mapUserDataToForm(response.data.watchers),
+        labels: response.data.labels,
+        imageUrl: response.data.imageUrl,
+        createdDate: this.utilService.formatDate(response.data.createdDate),
+        lastModifiedOn: this.utilService.formatDate(response.data.lastModifiedOn),
+        activity: response.data.activity.map(obj &#x3D;&gt; {
+          obj.readableDate &#x3D; this.utilService.formatDate(new Date(obj.dateLog).toISOString());
+          return obj;
+        }).reverse()
+      };
+      this.updatePrivilieges();
+      if (this.issueDetails.completionDate) {
+        this.issueDuration &#x3D; this.utilService.getDuration(response.data.createdDate, response.data.completionDate);
+      } else {
+        this.issueDuration &#x3D; this.utilService.getDuration(response.data.createdDate, null);
+      }
+      if (this.issueDetails.imageUrl) {
+        this.galleryImages &#x3D; [{medium: this.issueDetails.imageUrl, small: this.issueDetails.imageUrl, big: this.issueDetails.imageUrl}];
+      }
+      this.loaderService.stop();
+    }, err &#x3D;&gt; this.router.navigate([&#x27;/not-found&#x27;]));
+  }
+
+  getComments() {
+    this.httpService.getComments(this.issueId).subscribe(response &#x3D;&gt; {
+      this.allComments &#x3D; response.data.map(comment &#x3D;&gt; {
+        comment.createdDate &#x3D; this.utilService.formatDate(comment.createdDate);
+        return comment;
+      });
+    });
+  }
+
+  getAllUsers() {
+    this.httpService.getAllUsers().subscribe((response: UsersResponse) &#x3D;&gt; {
+      this.users &#x3D; this.utilService.mapUserDataToForm(response.data);
+    }, err &#x3D;&gt; this.loaderService.stop());
+  }
+
+  getAllLabels() {
+    this.httpService.getAllLabels().subscribe((response: {message: string, error: boolean, data: string[]}) &#x3D;&gt; {
+      this.labels &#x3D; response.data.map(label &#x3D;&gt; {
+        let obj &#x3D; {
+          display: label,
+          value: label
+        };
+        return obj;
+      });
+    }, err &#x3D;&gt; this.loaderService.stop());
+  }
+
+
+  // ############################################################################### //
+  // ************************* USER INTERACTION METHODS **************************** //
+  // ############################################################################## //
+
+  onUpdateAssignee($event, isSaveBtn &#x3D; false) {
+    if ($event) {
+      this.issueDetails.formAssignee[0].display &#x3D; $event.display;
+      this.issueDetails.formAssignee[0].value &#x3D; $event.value;
+    }
+    if (isSaveBtn) {
+      this.isAssigneeEditing &#x3D; false;
+      // check if the assignee is changed, if not return
+      if (this.issueDetails.assignee.userId &#x3D;&#x3D;&#x3D; this.issueDetails.formAssignee[0].value) {
+        return;
+      }
+      this.issueDetails.assignee.userId &#x3D; this.issueDetails.formAssignee[0].value;
+      let assigneeName &#x3D; this.issueDetails.formAssignee[0].display.split(&#x27; &#x27;);
+      this.issueDetails.assignee.firstName &#x3D; assigneeName[0];
+      this.issueDetails.assignee.lastName &#x3D; assigneeName[1];
+
+      // update issue with assignee
+      this.loaderService.start();
+      this.httpService.updateIssue(this.issueDetails.issueId, &#x27;assignee&#x27;, this.issueDetails.assignee).subscribe(response &#x3D;&gt; {
+        this.toastrService.success(response.message);
+        this.loaderService.stop();
+        const defaultMsg &#x3D; &#x27;*** has updated the assignee for ###&#x27;;
+        // realtime message to watchers
+        const receivers &#x3D; this.getNotificationReceivers();
+        this.utilService.sendNotification(defaultMsg, &#x27;issue&#x27;,
+                        {id: this.issueDetails.issueId, title: this.issueDetails.title}, receivers, &#x27;high&#x27;);
+        this.updateIssueActivity(this.issueDetails.issueId, &#x60;${this.authService.getUsername()} updated assignee&#x60;);
+      }, err &#x3D;&gt; this.loaderService.stop());
+
+      // need to update watchers list also since new assignee here
+      let currentWatchers &#x3D; this.issueDetails.formWatchers || [];
+      let currentAssignee &#x3D; Object.assign({}, this.issueDetails.formAssignee[0]);
+      let isAssigneeAlreadyWatching &#x3D; currentWatchers.find(user &#x3D;&gt; user.value &#x3D;&#x3D;&#x3D; currentAssignee.value);
+      if (!isAssigneeAlreadyWatching) {
+        currentAssignee.readonly &#x3D; true;
+        this.onAddWatcher(currentAssignee);
+      } else {
+        isAssigneeAlreadyWatching.readonly &#x3D; true;
+      }
+    }
+  }
+
+  onCancelUpdateAssignee() {
+    this.isAssigneeEditing &#x3D; false;
+    this.issueDetails.formAssignee[0].display &#x3D; this.issueDetails.assignee.firstName + &#x27; &#x27; + this.issueDetails.assignee.lastName;
+    this.issueDetails.formAssignee[0].value &#x3D; this.issueDetails.assignee.userId;
+  }
+
+
+  onAddWatcher($event, selfWatching &#x3D; false) {
+    this.loaderService.start();
+    let currentWatchers &#x3D; this.issueDetails.formWatchers || [];
+    let updatedWatchersTagFormat &#x3D; [$event, ...currentWatchers];
+    let updatedWatchers &#x3D; this.utilService.unmapUserDataFromForm(updatedWatchersTagFormat);
+    this.httpService.updateIssue(this.issueDetails.issueId, &#x27;watchers&#x27;, updatedWatchers).subscribe(response &#x3D;&gt; {
+      this.loaderService.stop();
+      this.issueDetails.formWatchers &#x3D; updatedWatchersTagFormat;
+      this.issueDetails.watchers &#x3D; this.utilService.unmapUserDataFromForm(this.issueDetails.formWatchers);
+      let defaultMsg &#x3D; &#x27;*** has added new watcher to ###&#x27;;
+      let activityMsg &#x3D; &#x60;${this.authService.getUsername()} added new watcher&#x60;;
+      if (selfWatching) {
+        defaultMsg &#x3D; &#x27;*** has started watching the ###&#x27;;
+        activityMsg &#x3D; &#x60;${this.authService.getUsername()} started watching this issue&#x60;;
+      }
+      // realtime message to watchers
+      const receivers &#x3D; this.getNotificationReceivers();
+      this.utilService.sendNotification(defaultMsg, &#x27;issue&#x27;,
+                      {id: this.issueDetails.issueId, title: this.issueDetails.title}, receivers);
+      this.updateIssueActivity(this.issueDetails.issueId, activityMsg);
+    }, err &#x3D;&gt; this.loaderService.stop());
+  }
+
+  onRemoveWatcher($event, selfWatching &#x3D; false) {
+    let userId &#x3D; $event.value;
+    let index &#x3D; this.issueDetails.formWatchers.findIndex(user &#x3D;&gt; user.value &#x3D;&#x3D;&#x3D; userId);
+    if (index &gt; -1) {
+      this.loaderService.start();
+      this.issueDetails.formWatchers.splice(index, 1);
+      let updatedUsers &#x3D; this.utilService.unmapUserDataFromForm(this.issueDetails.formWatchers);
+      this.httpService.updateIssue(this.issueId, &#x27;watchers&#x27;, updatedUsers).subscribe(response &#x3D;&gt; {
+        this.loaderService.stop();
+        this.issueDetails.watchers &#x3D; updatedUsers;
+        let defaultMsg &#x3D; &#x27;*** has removed a watcher from ###&#x27;;
+        let activityMsg &#x3D; &#x60;${this.authService.getUsername()} removed a watcher&#x60;;
+        if (selfWatching) {
+          defaultMsg &#x3D; &#x27;*** has stopped watching the ###&#x27;;
+          activityMsg &#x3D; &#x60;${this.authService.getUsername()} stopped watching this issue&#x60;;
+        }
+        // realtime message to watchers
+        const receivers &#x3D; this.getNotificationReceivers();
+        this.utilService.sendNotification(defaultMsg, &#x27;issue&#x27;,
+                        {id: this.issueDetails.issueId, title: this.issueDetails.title}, receivers);
+        this.updateIssueActivity(this.issueDetails.issueId, activityMsg);
+      }, error &#x3D;&gt; this.loaderService.stop());
+    } else {
+      this.loaderService.stop();
+    }
+  }
+
+  onAddLabel($event) {
+    this.loaderService.start();
+    let currentLabels &#x3D; this.issueDetails.labels || [];
+    let updatedLabels &#x3D; [$event.value, ...currentLabels];
+    this.httpService.updateIssue(this.issueId, &#x27;labels&#x27;, updatedLabels).subscribe(response &#x3D;&gt; {
+      this.loaderService.stop();
+      this.issueDetails.labels &#x3D; updatedLabels;
+      const defaultMsg &#x3D; &#x27;*** has added new label to ###&#x27;;
+      // realtime message to watchers
+      const receivers &#x3D; this.getNotificationReceivers();
+      this.utilService.sendNotification(defaultMsg, &#x27;issue&#x27;,
+                      {id: this.issueDetails.issueId, title: this.issueDetails.title}, receivers);
+      this.updateIssueActivity(this.issueDetails.issueId, &#x60;${this.authService.getUsername()} added new label&#x60;);
+    }, err &#x3D;&gt; this.loaderService.stop());
+  }
+
+  onRemoveLabel($event) {
+    this.loaderService.start();
+    let currentLabels &#x3D; this.issueDetails.labels || [];
+    let updatedLabel &#x3D; $event;
+    let index &#x3D; currentLabels.findIndex(label &#x3D;&gt; label &#x3D;&#x3D;&#x3D; updatedLabel);
+    if (index &gt; -1) {
+      this.issueDetails.labels.splice(index, 1);
+      this.httpService.updateIssue(this.issueId, &#x27;labels&#x27;, this.issueDetails.labels).subscribe(response &#x3D;&gt; {
+        this.loaderService.stop();
+        const defaultMsg &#x3D; &#x27;*** has removed a label from ###&#x27;;
+        // realtime message to watchers
+        const receivers &#x3D; this.getNotificationReceivers();
+        this.utilService.sendNotification(defaultMsg, &#x27;issue&#x27;,
+                        {id: this.issueDetails.issueId, title: this.issueDetails.title}, receivers);
+        this.updateIssueActivity(this.issueDetails.issueId, &#x60;${this.authService.getUsername()} removed a label&#x60;);
+      }, err &#x3D;&gt; this.loaderService.stop());
+    } else {
+      this.loaderService.stop();
+    }
+  }
+
+  onPriorityChange($event) {
+    this.loaderService.start();
+    this.issueDetails.priority &#x3D; $event.target.value;
+    this.httpService.updateIssue(this.issueDetails.issueId, &#x27;priority&#x27;, this.issueDetails.priority).subscribe(response &#x3D;&gt; {
+      this.loaderService.stop();
+      const defaultMsg &#x3D; &#x60;*** has updated priority to ${this.issueDetails.priority} for ###&#x60;;
+      // realtime message to watchers
+      const receivers &#x3D; this.getNotificationReceivers();
+      this.utilService.sendNotification(defaultMsg, &#x27;issue&#x27;,
+                      {id: this.issueDetails.issueId, title: this.issueDetails.title}, receivers, &#x27;high&#x27;);
+      this.updateIssueActivity(this.issueDetails.issueId,
+        &#x60;${this.authService.getUsername()} updated priority to ${this.issueDetails.priority}&#x60;);
+  }, err &#x3D;&gt; this.loaderService.stop());
+  }
+
+  onStatusChange($event) {
+    this.loaderService.start();
+    this.issueDetails.status &#x3D; $event.target.value;
+    this.httpService.updateIssue(this.issueDetails.issueId, &#x27;status&#x27;, this.issueDetails.status).subscribe(response &#x3D;&gt; {
+      this.loaderService.stop();
+      const defaultMsg &#x3D; &#x60;*** has updated status to ${this.issueDetails.status} for ###&#x60;;
+      // realtime message to watchers
+      const receivers &#x3D; this.getNotificationReceivers();
+      this.utilService.sendNotification(defaultMsg, &#x27;issue&#x27;,
+                      {id: this.issueDetails.issueId, title: this.issueDetails.title}, receivers, &#x27;high&#x27;);
+      this.updateIssueActivity(this.issueDetails.issueId,
+          &#x60;${this.authService.getUsername()} updated status to ${this.issueDetails.status}&#x60;);
+    }, err &#x3D;&gt; this.loaderService.stop());
+  }
+
+  onUpdateIssueDescription() {
+    this.loaderService.start();
+    let updatedDescription &#x3D; this.issueDetails.description;
+    updatedDescription &#x3D; this.utilService.removeCharsFromString(updatedDescription, &#x27;Powered by&#x27;);
+    this.httpService.updateIssue(this.issueId, &#x27;description&#x27;, updatedDescription).subscribe(response &#x3D;&gt; {
+      this.loaderService.stop();
+      this.toastrService.success(response.message);
+      const defaultMsg &#x3D; &#x60;*** has updated description to ${this.issueDetails.description} for ###&#x60;;
+      // realtime message to watchers
+      const receivers &#x3D; this.getNotificationReceivers();
+      this.utilService.sendNotification(defaultMsg, &#x27;issue&#x27;,
+                      {id: this.issueDetails.issueId, title: this.issueDetails.title}, receivers, &#x27;high&#x27;);
+      this.updateIssueActivity(this.issueDetails.issueId,
+          &#x60;${this.authService.getUsername()} has updated the description&#x60;);
+    }, err &#x3D;&gt; this.loaderService.stop());
+  }
+
+  onAddComment() {
+    let summary &#x3D; this.utilService.removeCharsFromString(this.issueComment, &#x27;Powered by&#x27;);
+    if (!summary) { return; }
+    this.loaderService.start();
+    let comment: Comment &#x3D; {
+      issueId: this.issueId,
+      summary: summary,
+      userName: this.currentUserName,
+      userId: this.currentUserId
+    };
+    this.httpService.addComment(comment).subscribe(response &#x3D;&gt; {
+      this.loaderService.stop();
+      comment.createdDate &#x3D; this.utilService.formatDate(new Date().toISOString());
+      this.allComments.unshift(comment);
+      this.issueComment &#x3D; &#x27;&#x27;;
+    }, err &#x3D;&gt; this.loaderService.stop());
+  }
+
+  onEditTitleIcon() {
+    this.isTitleEditing &#x3D; true;
+    this.backupTitle &#x3D; this.issueDetails.title;
+  }
+
+  onUpdateTitle() {
+    if (this.issueDetails.title &#x3D;&#x3D;&#x3D; &#x27;&#x27; || typeof this.issueDetails.title &#x3D;&#x3D;&#x3D; &#x27;undefined&#x27;) {
+      return;
+    }
+    if (this.issueDetails.title &amp;&amp; this.issueDetails.title.length &lt; 3) {
+      this.toastrService.error(&#x27;Title should have minimum 3 characters!!!&#x27;);
+      return;
+    }
+    this.loaderService.start();
+    this.httpService.updateIssue(this.issueId, &#x27;title&#x27;, this.issueDetails.title).subscribe(response &#x3D;&gt; {
+      this.loaderService.stop();
+      this.isTitleEditing &#x3D; false;
+      const defaultMsg &#x3D; &#x60;*** has updated title to ${this.issueDetails.title} for ###&#x60;;
+      // realtime message to watchers
+      const receivers &#x3D; this.getNotificationReceivers();
+      this.utilService.sendNotification(defaultMsg, &#x27;issue&#x27;,
+                      {id: this.issueDetails.issueId, title: this.issueDetails.title}, receivers, &#x27;high&#x27;);
+      this.updateIssueActivity(this.issueDetails.issueId,
+          &#x60;${this.authService.getUsername()} updated the title to ${this.issueDetails.title}&#x60;);
+    }, err &#x3D;&gt; this.loaderService.stop());
+  }
+
+  onCancelUpdateTitle() {
+    this.issueDetails.title &#x3D; this.backupTitle;
+    this.isTitleEditing &#x3D; false;
+  }
+
+
+  // ############################################################################### //
+  // *************************** UTILITY METHODS *********************************** //
+  // ############################################################################## //
+  getNotificationReceivers() {
+    return [...this.issueDetails.watchers];
+  }
+
+  updateIssueActivity(issueId, msg: string) {
+    let date &#x3D; this.utilService.getCurrentDate();
+    // update issue activity
+    this.utilService.updateActivity(issueId, msg);
+    this.issueDetails.activity.unshift({
+      summary: msg,
+      dateLog: date,
+      readableDate: this.utilService.formatDate(date.toISOString())
+    });
+  }
+
+  updatePrivilieges() {
+    if (!this.isReporter()) {
+      this.textEditorConfig.contenteditable &#x3D; false;
+      this.textEditorConfig.events &#x3D; {
+        &#x27;froalaEditor.initialized&#x27;: function(e, editor) {
+          editor.edit.off();
+        }
+      };
+    }
+    let updatedWatchers &#x3D; this.issueDetails.formWatchers.map(watcher &#x3D;&gt; {
+      if (watcher.value &#x3D;&#x3D;&#x3D; this.issueDetails.reporter.userId ||
+          watcher.value &#x3D;&#x3D;&#x3D; this.issueDetails.assignee.userId) {
+            watcher.readonly &#x3D; true;
+      }
+      return watcher;
+    });
+    this.issueDetails.formWatchers &#x3D; updatedWatchers;
+  }
+
+  isAssignee() {
+    if (this.issueDetails &amp;&amp; this.issueDetails.assignee) {
+      // tslint:disable-next-line:max-line-length
+      return this.currentUserId &#x3D;&#x3D;&#x3D; this.issueDetails.assignee.userId;
+    }
+    return false;
+  }
+
+  isReporter() {
+    if (this.issueDetails &amp;&amp; this.issueDetails.reporter) {
+      return this.currentUserId &#x3D;&#x3D;&#x3D; this.issueDetails.reporter.userId;
+    }
+    return false;
+  }
+
+  isWatcher() {
+    if (this.issueDetails &amp;&amp; this.issueDetails.watchers) {
+      let findUser &#x3D; this.issueDetails.watchers.find(user &#x3D;&gt; user.userId &#x3D;&#x3D;&#x3D; this.currentUserId);
+      return true ? (findUser &amp;&amp; findUser.userId) : false;
+    }
+    return false;
+  }
+
+  isOutSideUser() {
+    return !(this.isAssignee() || this.isReporter() || this.isWatcher());
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;ngx-ui-loader&gt;&lt;/ngx-ui-loader&gt;
+
+&lt;app-sidebar&gt;&lt;/app-sidebar&gt;
+&lt;aside class&#x3D;&quot;issue-container&quot; *ngIf&#x3D;&quot;issueDetails &amp;&amp; issueDetails.issueId&quot;&gt;
+  &lt;!-- Basic details wrapper --&gt;
+  &lt;div class&#x3D;&quot;basic-details-wrap&quot;&gt;
+    &lt;div class&#x3D;&quot;inside-wrap&quot;&gt;
+      &lt;h3&gt;
+        &lt;a [routerLink]&#x3D;&quot;[&#x27;/issue&#x27;, issueDetails.issueId]&quot;&gt;
+          {{ issueDetails.issueId }}
+        &lt;/a&gt;
+      &lt;/h3&gt;
+      &lt;h1&gt;{{ issueDetails.title }}&lt;/h1&gt;
+      &lt;span *ngIf&#x3D;&quot;isReporter()&quot; class&#x3D;&quot;edit&quot; (click)&#x3D;&quot;onEditTitleIcon()&quot;&gt;
+        &lt;fa name&#x3D;&quot;edit&quot;&gt;&lt;/fa&gt;
+      &lt;/span&gt;
+      &lt;div *ngIf&#x3D;&quot;isTitleEditing&quot; class&#x3D;&quot;edit-title-holder&quot;&gt;
+        &lt;input type&#x3D;&quot;text&quot; name&#x3D;&quot;edit-title&quot; [(ngModel)]&#x3D;&quot;issueDetails.title&quot;&gt;
+        &lt;span&gt;
+          &lt;span class&#x3D;&quot;fa-wrap&quot;&gt;&lt;fa name&#x3D;&quot;check&quot; size&#x3D;&quot;2x&quot; class&#x3D;&quot;save&quot; (click)&#x3D;&quot;onUpdateTitle()&quot;&gt;&lt;/fa&gt;&lt;/span&gt;
+          &lt;span class&#x3D;&quot;fa-wrap&quot;&gt;&lt;fa name&#x3D;&quot;times&quot; size&#x3D;&quot;2x&quot; class&#x3D;&quot;cancel&quot; (click)&#x3D;&quot;onCancelUpdateTitle()&quot;&gt;&lt;/fa&gt;&lt;/span&gt;
+        &lt;/span&gt;
+      &lt;/div&gt;
+      &lt;h2&gt;
+        &lt;a [routerLink]&#x3D;&quot;[&#x27;/project&#x27;, issueDetails.project.projectId]&quot; title&#x3D;&quot;{{issueDetails.project.title}}&quot;&gt;
+          &lt;span&gt;&lt;fa name&#x3D;&quot;arrows&quot;&gt;&lt;/fa&gt;&lt;/span&gt;
+          &lt;span&gt;{{issueDetails.project.title}}&lt;/span&gt;
+        &lt;/a&gt;
+      &lt;/h2&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Other infor and action buttons wrap --&gt;
+  &lt;div class&#x3D;&quot;action-wrap&quot;&gt;
+
+    &lt;!-- Content wrap --&gt;
+    &lt;div class&#x3D;&quot;content-wrap&quot;&gt;
+      &lt;div class&#x3D;&quot;left&quot;&gt;
+        &lt;div&gt;
+          &lt;span&gt;Title: &lt;/span&gt; &lt;span class&#x3D;&quot;value&quot;&gt;{{ issueDetails.title }}&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+          &lt;span&gt;Reporter: &lt;/span&gt;&lt;span&gt;&lt;a [routerLink]&#x3D;&quot;[ &#x27;/statistics&#x27;, issueDetails.reporter.userId]&quot;&gt;
+            &lt;span&gt;&lt;fa name&#x3D;&quot;user&quot;&gt;&lt;/fa&gt;&lt;/span&gt; {{ issueDetails.reporter.firstName }} {{ issueDetails.reporter.lastName }}&lt;/a&gt;&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+          &lt;span&gt;Assignee: &lt;/span&gt;&lt;span&gt;&lt;a [routerLink]&#x3D;&quot;[ &#x27;/statistics&#x27;, issueDetails.assignee.userId]&quot;&gt;
+          &lt;span&gt;&lt;fa name&#x3D;&quot;user&quot;&gt;&lt;/fa&gt;&lt;/span&gt; {{issueDetails.assignee.firstName }} {{issueDetails.assignee.lastName }}&lt;/a&gt;&lt;/span&gt;
+          &lt;span *ngIf&#x3D;&quot;isAssignee() || isReporter()&quot; class&#x3D;&quot;edit&quot; (click)&#x3D;&quot;isAssigneeEditing &#x3D; true&quot;&gt;
+            &lt;fa name&#x3D;&quot;edit&quot;&gt;&lt;/fa&gt;
+          &lt;/span&gt;
+          &lt;span *ngIf&#x3D;&quot;isAssigneeEditing&quot; class&#x3D;&quot;assignee-form&quot;&gt;
+            &lt;tag-input [ngModel]&#x3D;&quot;issueDetails.formAssignee&quot;
+                       [placeholder]&#x3D;&quot;&#x27;Add Assignee&#x27;&quot;
+                       [secondaryPlaceholder]&#x3D;&quot;&#x27;Add Assignee&#x27;&quot;
+                       [maxItems]&#x3D;&quot;1&quot;
+                       (onAdd)&#x3D;&quot;onUpdateAssignee($event)&quot;
+                       theme&#x3D;&quot;foundation-theme&quot;&gt;
+              &lt;tag-input-dropdown
+                [autocompleteItems]&#x3D;&quot;users&quot;
+                [showDropdownIfEmpty]&#x3D;&quot;true&quot;
+                [keepOpen]&#x3D;&quot;false&quot;&gt;
+                &lt;/tag-input-dropdown&gt;
+            &lt;/tag-input&gt;
+            &lt;span&gt;
+              &lt;span class&#x3D;&quot;fa-wrap&quot;&gt;&lt;fa name&#x3D;&quot;check&quot; size&#x3D;&quot;2x&quot; class&#x3D;&quot;save&quot; (click)&#x3D;&quot;onUpdateAssignee(null, true)&quot;&gt;&lt;/fa&gt;&lt;/span&gt;
+              &lt;span class&#x3D;&quot;fa-wrap&quot;&gt;&lt;fa name&#x3D;&quot;times&quot; size&#x3D;&quot;2x&quot; class&#x3D;&quot;cancel&quot; (click)&#x3D;&quot;onCancelUpdateAssignee()&quot;&gt;&lt;/fa&gt;&lt;/span&gt;
+            &lt;/span&gt;
+          &lt;/span&gt;
+          &lt;p *ngIf&#x3D;&quot;isAssigneeEditing &amp;&amp; isAssignee()&quot; class&#x3D;&quot;error&quot;&gt;
+            *Note that your privilieges to this issue will be affected once you update this!!!
+          &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+          &lt;span&gt;Status: &lt;/span&gt;
+          &lt;span class&#x3D;&quot;position-relative&quot;&gt;
+            &lt;select [ngModel]&#x3D;&quot;issueDetails.status&quot; [disabled]&#x3D;&quot;!(isAssignee() || isReporter())&quot; (change)&#x3D;&quot;onStatusChange($event)&quot;&gt;
+              &lt;option *ngFor&#x3D;&quot;let option of statusGroup&quot; value&#x3D;&quot;{{option.value}}&quot;&gt;{{ option.name }}&lt;/option&gt;
+            &lt;/select&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+          &lt;span&gt;Priority: &lt;/span&gt;
+          &lt;span class&#x3D;&quot;position-relative&quot;&gt;
+            &lt;select [ngModel]&#x3D;&quot;issueDetails.priority&quot; [disabled]&#x3D;&quot;!isReporter()&quot; (change)&#x3D;&quot;onPriorityChange($event)&quot;&gt;
+              &lt;option *ngFor&#x3D;&quot;let option of priorityGroup&quot; value&#x3D;&quot;{{option.value}}&quot;&gt;{{ option.name }}&lt;/option&gt;
+            &lt;/select&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class&#x3D;&quot;right&quot;&gt;
+        &lt;div&gt;
+          &lt;span&gt;Reported On: &lt;/span&gt; &lt;span class&#x3D;&quot;value&quot;&gt;{{ issueDetails.createdDate }}&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+          &lt;span&gt;Last Updated: &lt;/span&gt; &lt;span class&#x3D;&quot;value&quot;&gt;{{ issueDetails.lastModifiedOn }}&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+          &lt;span&gt;Active Duration: &lt;/span&gt; &lt;span class&#x3D;&quot;value&quot;&gt;{{ issueDuration }}&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+          &lt;span&gt;Project: &lt;/span&gt; &lt;div class&#x3D;&quot;d-inline&quot;&gt;&lt;a [routerLink]&#x3D;&quot;[&#x27;/project&#x27;, issueDetails.project.projectId]&quot; title&#x3D;&quot;{{issueDetails.project.title}}&quot;&gt;
+            &lt;span&gt;&lt;fa name&#x3D;&quot;arrows&quot;&gt;&lt;/fa&gt;&lt;/span&gt;
+            &lt;span&gt;{{issueDetails.project.title}}&lt;/span&gt;
+          &lt;/a&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+          &lt;span&gt;Labels:&lt;/span&gt;
+          &lt;span&gt;
+            &lt;tag-input [ngModel]&#x3D;&quot;issueDetails.labels&quot;
+                       [placeholder]&#x3D;&quot;&#x27;Add label&#x27;&quot;
+                       [secondaryPlaceholder]&#x3D;&quot;&#x27;Add label&#x27;&quot;
+                       (onAdd)&#x3D;&quot;onAddLabel($event)&quot;
+                       (onRemove)&#x3D;&quot;onRemoveLabel($event)&quot;
+                       [removable]&#x3D;&quot;isReporter() || isAssignee()&quot;
+                       [maxItems]&#x3D;&quot;(isReporter() || isAssignee()) ? 10 : issueDetails.labels.length&quot;
+                       theme&#x3D;&quot;foundation-theme&quot;&gt;
+              &lt;tag-input-dropdown [autocompleteItems]&#x3D;&quot;labels&quot; [showDropdownIfEmpty]&#x3D;&quot;true&quot; [keepOpen]&#x3D;&quot;false&quot;&gt;
+                &lt;/tag-input-dropdown&gt;
+            &lt;/tag-input&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Description and watchers wrap --&gt;
+  &lt;div class&#x3D;&quot;body-wrap&quot;&gt;
+    &lt;div class&#x3D;&quot;description-wrap&quot;&gt;
+      &lt;h4&gt;Description&lt;/h4&gt;
+      &lt;p [froalaEditor]&#x3D;&quot;textEditorConfig&quot; [(froalaModel)]&#x3D;&quot;issueDetails.description&quot;&gt;&lt;/p&gt;
+      &lt;button class&#x3D;&quot;btn action-btn&quot; (click)&#x3D;&quot;onUpdateIssueDescription()&quot; *ngIf&#x3D;&quot;isReporter()&quot;&gt;Update&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;watchers-wrap&quot;&gt;
+      &lt;h4&gt;Watchers&lt;/h4&gt;
+      &lt;span&gt;
+        &lt;fa name&#x3D;&quot;info-circle&quot;&gt;&lt;/fa&gt;
+        &lt;span&gt;By default assignee and reporter will get all updates about this issue&lt;/span&gt;
+      &lt;/span&gt;
+      &lt;div class&#x3D;&quot;watchers-box&quot;&gt;
+          &lt;tag-input [ngModel]&#x3D;&quot;issueDetails.formWatchers&quot;
+                     [placeholder]&#x3D;&quot;&#x27;Add a watcher...&#x27;&quot;
+                     [secondaryPlaceholder]&#x3D;&quot;&#x27;Add a watcher&#x27;&quot;
+                     (onRemove)&#x3D;&quot;onRemoveWatcher($event)&quot;
+                     (onAdd)&#x3D;&quot;onAddWatcher($event)&quot;
+                     [removable]&#x3D;&quot;isReporter()&quot;
+                     theme&#x3D;&quot;foundation-theme&quot;&gt;
+              &lt;tag-input-dropdown [autocompleteItems]&#x3D;&quot;users&quot; [showDropdownIfEmpty]&#x3D;&quot;true&quot; [keepOpen]&#x3D;&quot;false&quot;&gt;
+                &lt;/tag-input-dropdown&gt;
+          &lt;/tag-input&gt;
+      &lt;/div&gt;
+      &lt;p *ngIf&#x3D;&quot;!isReporter() &amp;&amp; !isAssignee()&quot; class&#x3D;&quot;p-0&quot;&gt;
+        &lt;span *ngIf&#x3D;&quot;isWatcher()&quot;&gt;
+          Stop watching this issue
+          &lt;fa name&#x3D;&quot;eye-slash&quot; size&#x3D;&quot;2x&quot; (click)&#x3D;&quot;onRemoveWatcher({display: currentUserName, value: currentUserId}, true)&quot;&gt;&lt;/fa&gt;
+        &lt;/span&gt;
+        &lt;span *ngIf&#x3D;&quot;!isWatcher()&quot;&gt;
+          Start watching this issue
+          &lt;fa name&#x3D;&quot;eye&quot; size&#x3D;&quot;2x&quot; (click)&#x3D;&quot;onAddWatcher({display: currentUserName, value: currentUserId}, true)&quot;&gt;&lt;/fa&gt;
+        &lt;/span&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class&#x3D;&quot;gallery-wrap&quot;&gt;
+    &lt;h4&gt;Attachments&lt;/h4&gt;
+    &lt;div *ngIf&#x3D;&quot;galleryImages&quot;&gt;
+      &lt;ngx-gallery [options]&#x3D;&quot;galleryOptions&quot; [images]&#x3D;&quot;galleryImages&quot;&gt;&lt;/ngx-gallery&gt;
+    &lt;/div&gt;
+    &lt;div *ngIf&#x3D;&quot;!galleryImages&quot;&gt;
+        &lt;p&gt;----------None attached-----------&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Comments and activity wrap --&gt;
+  &lt;div class&#x3D;&quot;activities-wrap&quot;&gt;
+    &lt;div class&#x3D;&quot;comments-wrap&quot;&gt;
+      &lt;h4&gt;Comments&lt;/h4&gt;
+      &lt;div class&#x3D;&quot;comments-box&quot;&gt;
+        &lt;div class&#x3D;&quot;comments&quot; *ngIf&#x3D;&quot;allComments &amp;&amp; allComments.length &gt; 0&quot;&gt;
+          &lt;div class&#x3D;&quot;comment&quot; *ngFor&#x3D;&quot;let comment of allComments&quot;&gt;
+            &lt;div class&#x3D;&quot;header&quot;&gt;
+              &lt;span&gt;{{ comment.userName }}&lt;/span&gt;
+              &lt;span&gt;{{ comment.createdDate }}&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class&#x3D;&quot;body&quot; [innerHTML]&#x3D;&quot;comment.summary&quot;&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;input-box&quot;&gt;
+            &lt;p [froalaEditor]&#x3D;&quot;commentConfig&quot; class&#x3D;&quot;comment-editor&quot; [(froalaModel)]&#x3D;&quot;issueComment&quot;&gt;&lt;/p&gt;
+          &lt;button class&#x3D;&quot;btn action-btn&quot; (click)&#x3D;&quot;onAddComment()&quot;&gt;Add&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;activity-wrap&quot;&gt;
+      &lt;h4&gt;Activity Log&lt;/h4&gt;
+      &lt;div class&#x3D;&quot;activity-box&quot;&gt;
+        &lt;div class&#x3D;&quot;activities&quot;&gt;
+          &lt;div class&#x3D;&quot;activity&quot; *ngFor&#x3D;&quot;let activity of issueDetails?.activity&quot;&gt;
+            &lt;p&gt;{{ activity.summary }} on {{ activity.readableDate }}&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/aside&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./issue.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">@import &#x27;variables&#x27;;
+@import &#x27;mixins&#x27;;
+
+aside {
+    @include aside();
+    padding: 1rem;
+
+    a {
+        color: $orange;
+        &amp;:hover {
+            color: darken($orange, 5%);
+        }
+        span:last-child {
+            margin-left: .25rem;
+        }
+    }
+    p { color: $white;}
+
+    h1 {
+        padding: 0 .5rem;
+        display: inline-block;
+        + span {
+            color: $white;
+            cursor: pointer;
+        }
+    }
+    .edit-title-holder {
+        display: flex;
+        align-items: center;
+        @media screen and (max-width: 767px) {
+            justify-content: center;
+        }
+        input {
+            padding: .5rem;
+        }
+        .save {
+            color: $primary-green;
+            cursor: pointer;
+        }
+        .cancel {
+            color: $orange;
+            cursor: pointer;
+        }
+    }
+    
+    .action-wrap {
+        margin-top: 2rem;
+    }
+    
+    button.action-btn {
+        min-width: 100px;
+        padding: .5rem;
+        margin: 0;
+        border: 1px solid;
+        background: $primary-pink;
+        color: $white;
+        &amp;:hover {
+            background: $secondary-pink;
+        }
+    }
+    .content-wrap {
+        color: $white;
+        margin: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        &amp; &gt; div {
+            width: calc(50% - 2rem);
+            display: flex;
+            flex-direction: column;
+            @media screen and (max-width: 768px) {
+                width: 100%;
+            }
+            div {
+                padding: .5rem;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+            margin: 2rem .25rem;
+        }
+        .left, .right {
+            &amp; &gt; div &gt; span:first-child {
+                display: inline-block;
+                min-width: 30%;
+                @media screen and (max-width: 768px) {
+                    min-width: 40%;
+                }
+            }
+            a {
+                padding: 0;
+            }
+        }
+        span.value {
+            font-size: 1.1rem;
+            font-weight: 700;
+            @media screen and (max-width: 768px) {
+                font-size: 1rem;
+            }
+        }
+        span.edit {
+            margin-left: .5rem;
+            cursor: pointer;
+            &amp;:hover {
+                fa {
+                    color: $orange;
+                }
+            }
+        }
+        .assignee-form {
+            display: flex;
+            align-items: flex-start;
+            .fa-wrap {
+                margin: .25rem;
+                position: relative;
+                top: 10px;
+                .save {
+                    color: $primary-green;
+                    cursor: pointer;
+                }
+                .cancel {
+                    color: $orange;
+                    cursor: pointer;
+                }
+            }
+
+        }
+    }
+
+    .body-wrap {
+        display: flex;
+        &amp;&gt;div:first-child {
+            width: 49%;
+            margin-right: 1%;
+            position: relative;
+            @media screen and (max-width: 768px) {
+                width: 99%;
+            }
+            .action-btn {
+                position: absolute;
+                bottom: 1rem;
+                right: .5rem;
+                z-index: 1;
+            }
+            h4 {
+                margin-left: .5rem;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+    .watchers-wrap {
+        max-width: 30%;
+        @media screen and (max-width: 768px) {
+            max-width: 99%;
+        }
+        h4 {display: inline;}
+        fa + span {
+            opacity: 0;
+            height: 0;
+            width: 0;
+            position: absolute;
+            transition: .3s all ease-in-out;
+        }
+        fa {
+            margin: 0 .25rem;
+            color: $white;
+            &amp;:hover {
+                &amp;+ span {
+                    opacity: 1;
+                    height: auto;
+                    width: auto;
+                    padding: .4rem;
+                    background: $white;
+                    color: $primary-bg;
+                    z-index: 10;
+                    border-radius: .2rem;
+                }
+            }
+        }
+        p span {
+            display: flex;
+            align-items: center;
+            padding: .5rem 0;
+            fa {
+                color: $black;
+                background: $white;
+                margin-left: .75rem;
+                cursor: pointer;
+                transition: .3s all ease-in;
+                &amp;:hover {
+                    background: transparent;
+                }
+            }
+        }
+    }
+
+    // Activity and comments styles
+    .activities-wrap {
+        display: flex;
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+        }
+    }
+    .activities-wrap &gt; div {
+        max-width: 49%;
+        margin-right: 1%;
+        @media screen and (max-width: 768px) {
+            max-width: 99%;
+        }
+    }
+    
+    .comments-wrap {
+        padding: 1rem .5rem;
+    }
+    
+    .comments-wrap p {
+        padding: 0;
+    }
+    
+    .comments {
+        max-height: 500px;
+        overflow: hidden;
+        overflow-y: auto;
+        border: 2px solid $white;
+        padding: .5rem;
+        border-radius: .25rem;
+    }
+    
+    .comment {
+        padding: 1rem;
+        background: rgba(255,255,255,.8);
+        border-radius: .5rem;
+        margin-bottom: .5rem;
+        p {
+            color: $black;
+        }
+    }
+    
+    .comment .header {
+        display: flex;
+        justify-content: space-between;
+        color: $orange;
+    }
+    
+    .comment-editor {
+        width: 75%;
+        margin-top: 2rem;
+        margin-bottom: 0;
+        resize: none;
+        border-radius: .5rem;
+        @media screen and (max-width: 768px) {
+            width: 98%;
+            margin-bottom: 1.5rem;
+        }
+    }
+    
+    
+    .input-box {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        @media screen and (max-width: 768px) {
+            align-items: flex-start;
+            flex-direction: column;
+        }
+    }
+
+    .activity-wrap {
+        padding: 1rem .5rem;
+    }
+    .activity-wrap p {
+        padding: 0;
+        
+    }
+    
+    .activity-box {
+        padding: 1rem;
+        border: 2px solid $white;
+        border-radius: .25rem;
+        max-height: 500px;
+        overflow: hidden;
+        overflow-y: auto;
+    }
+    
+    .activity {
+        padding: .5rem;
+        background: rgba(255,255,255,.8);
+        margin-bottom: .5rem;
+        border-radius: .5rem;
+        p {
+            color: $black;
+        }
+    }
+    select {
+        padding: .75rem;
+    }
+    p.error {
+        background: red;
+    }
+    @media screen and (max-width: 767px) {
+        .basic-details-wrap {
+            text-align: center;
+        }
+    }
+}</code></pre>
+                <p class="comment">
+                    <code>../../../styles/_foundation-theme.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">@import &quot;~node_modules/ngx-chips/core/styles/core/_core.scss&quot;;
+@import &#x27;variables&#x27;;
+
+$foundation-primary: $primary-pink;
+$foundation-primary-dark: darken($foundation-primary, 10%);
+
+$foundation-theme: (
+    container-border-bottom: 1px solid $foundation-primary
+);
+
+$foundation-tag-theme: (
+    background: $foundation-primary,
+    background-focused: $foundation-primary-dark,
+    background-active: $foundation-primary-dark,
+    background-hover: $foundation-primary-dark,
+    color: $white,
+    color-hover: $white,
+    border-radius: 2px
+);
+
+$foundation-icon-theme: (
+    fill: $white,
+    fill-focus: $white,
+    transition: all 0.35s
+);
+
+/deep/ .ng2-tag-input.foundation-theme {
+    @include tag-input-theme($foundation-theme);
+    border-bottom: 0px !important;
+}
+
+/deep/ .ng2-tag-input.foundation-theme tag {
+    @include tag-theme($foundation-tag-theme);
+    height: auto;
+    font-size: 1.1rem;
+    font-family: $mont;
+    margin-bottom: .25rem;
+}
+
+/deep/ .ng2-tag-input.foundation-theme tag delete-icon {
+    @include icon-theme($foundation-icon-theme);
+}
+
+/deep/ .ng2-dropdown-menu {
+    background: transparent !important;
+    text-align: center;
+    .ng2-menu-item {
+        background: $primary-pink !important;
+        font-size: 1rem !important;
+        font-family: $mont !important;
+    }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><ngx-ui-loader></ngx-ui-loader><app-sidebar></app-sidebar><aside class="issue-container" *ngIf="issueDetails && issueDetails.issueId">  <!-- Basic details wrapper -->  <div class="basic-details-wrap">    <div class="inside-wrap">      <h3>        <a [routerLink]="[\'/issue\', issueDetails.issueId]">          {{ issueDetails.issueId }}        </a>      </h3>      <h1>{{ issueDetails.title }}</h1>      <span *ngIf="isReporter()" class="edit" (click)="onEditTitleIcon()">        <fa name="edit"></fa>      </span>      <div *ngIf="isTitleEditing" class="edit-title-holder">        <input type="text" name="edit-title" [(ngModel)]="issueDetails.title">        <span>          <span class="fa-wrap"><fa name="check" size="2x" class="save" (click)="onUpdateTitle()"></fa></span>          <span class="fa-wrap"><fa name="times" size="2x" class="cancel" (click)="onCancelUpdateTitle()"></fa></span>        </span>      </div>      <h2>        <a [routerLink]="[\'/project\', issueDetails.project.projectId]" title="{{issueDetails.project.title}}">          <span><fa name="arrows"></fa></span>          <span>{{issueDetails.project.title}}</span>        </a>      </h2>    </div>  </div>  <!-- Other infor and action buttons wrap -->  <div class="action-wrap">    <!-- Content wrap -->    <div class="content-wrap">      <div class="left">        <div>          <span>Title: </span> <span class="value">{{ issueDetails.title }}</span>        </div>        <div>          <span>Reporter: </span><span><a [routerLink]="[ \'/statistics\', issueDetails.reporter.userId]">            <span><fa name="user"></fa></span> {{ issueDetails.reporter.firstName }} {{ issueDetails.reporter.lastName }}</a></span>        </div>        <div>          <span>Assignee: </span><span><a [routerLink]="[ \'/statistics\', issueDetails.assignee.userId]">          <span><fa name="user"></fa></span> {{issueDetails.assignee.firstName }} {{issueDetails.assignee.lastName }}</a></span>          <span *ngIf="isAssignee() || isReporter()" class="edit" (click)="isAssigneeEditing = true">            <fa name="edit"></fa>          </span>          <span *ngIf="isAssigneeEditing" class="assignee-form">            <tag-input [ngModel]="issueDetails.formAssignee"                       [placeholder]="\'Add Assignee\'"                       [secondaryPlaceholder]="\'Add Assignee\'"                       [maxItems]="1"                       (onAdd)="onUpdateAssignee($event)"                       theme="foundation-theme">              <tag-input-dropdown                [autocompleteItems]="users"                [showDropdownIfEmpty]="true"                [keepOpen]="false">                </tag-input-dropdown>            </tag-input>            <span>              <span class="fa-wrap"><fa name="check" size="2x" class="save" (click)="onUpdateAssignee(null, true)"></fa></span>              <span class="fa-wrap"><fa name="times" size="2x" class="cancel" (click)="onCancelUpdateAssignee()"></fa></span>            </span>          </span>          <p *ngIf="isAssigneeEditing && isAssignee()" class="error">            *Note that your privilieges to this issue will be affected once you update this!!!          </p>        </div>        <div>          <span>Status: </span>          <span class="position-relative">            <select [ngModel]="issueDetails.status" [disabled]="!(isAssignee() || isReporter())" (change)="onStatusChange($event)">              <option *ngFor="let option of statusGroup" value="{{option.value}}">{{ option.name }}</option>            </select>          </span>        </div>        <div>          <span>Priority: </span>          <span class="position-relative">            <select [ngModel]="issueDetails.priority" [disabled]="!isReporter()" (change)="onPriorityChange($event)">              <option *ngFor="let option of priorityGroup" value="{{option.value}}">{{ option.name }}</option>            </select>          </span>        </div>      </div>      <div class="right">        <div>          <span>Reported On: </span> <span class="value">{{ issueDetails.createdDate }}</span>        </div>        <div>          <span>Last Updated: </span> <span class="value">{{ issueDetails.lastModifiedOn }}</span>        </div>        <div>          <span>Active Duration: </span> <span class="value">{{ issueDuration }}</span>        </div>        <div>          <span>Project: </span> <div class="d-inline"><a [routerLink]="[\'/project\', issueDetails.project.projectId]" title="{{issueDetails.project.title}}">            <span><fa name="arrows"></fa></span>            <span>{{issueDetails.project.title}}</span>          </a></div>        </div>        <div>          <span>Labels:</span>          <span>            <tag-input [ngModel]="issueDetails.labels"                       [placeholder]="\'Add label\'"                       [secondaryPlaceholder]="\'Add label\'"                       (onAdd)="onAddLabel($event)"                       (onRemove)="onRemoveLabel($event)"                       [removable]="isReporter() || isAssignee()"                       [maxItems]="(isReporter() || isAssignee()) ? 10 : issueDetails.labels.length"                       theme="foundation-theme">              <tag-input-dropdown [autocompleteItems]="labels" [showDropdownIfEmpty]="true" [keepOpen]="false">                </tag-input-dropdown>            </tag-input>          </span>        </div>      </div>    </div>  </div>  <!-- Description and watchers wrap -->  <div class="body-wrap">    <div class="description-wrap">      <h4>Description</h4>      <p [froalaEditor]="textEditorConfig" [(froalaModel)]="issueDetails.description"></p>      <button class="btn action-btn" (click)="onUpdateIssueDescription()" *ngIf="isReporter()">Update</button>    </div>    <div class="watchers-wrap">      <h4>Watchers</h4>      <span>        <fa name="info-circle"></fa>        <span>By default assignee and reporter will get all updates about this issue</span>      </span>      <div class="watchers-box">          <tag-input [ngModel]="issueDetails.formWatchers"                     [placeholder]="\'Add a watcher...\'"                     [secondaryPlaceholder]="\'Add a watcher\'"                     (onRemove)="onRemoveWatcher($event)"                     (onAdd)="onAddWatcher($event)"                     [removable]="isReporter()"                     theme="foundation-theme">              <tag-input-dropdown [autocompleteItems]="users" [showDropdownIfEmpty]="true" [keepOpen]="false">                </tag-input-dropdown>          </tag-input>      </div>      <p *ngIf="!isReporter() && !isAssignee()" class="p-0">        <span *ngIf="isWatcher()">          Stop watching this issue          <fa name="eye-slash" size="2x" (click)="onRemoveWatcher({display: currentUserName, value: currentUserId}, true)"></fa>        </span>        <span *ngIf="!isWatcher()">          Start watching this issue          <fa name="eye" size="2x" (click)="onAddWatcher({display: currentUserName, value: currentUserId}, true)"></fa>        </span>      </p>    </div>  </div>  <div class="gallery-wrap">    <h4>Attachments</h4>    <div *ngIf="galleryImages">      <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>    </div>    <div *ngIf="!galleryImages">        <p>----------None attached-----------</p>    </div>  </div>  <!-- Comments and activity wrap -->  <div class="activities-wrap">    <div class="comments-wrap">      <h4>Comments</h4>      <div class="comments-box">        <div class="comments" *ngIf="allComments && allComments.length > 0">          <div class="comment" *ngFor="let comment of allComments">            <div class="header">              <span>{{ comment.userName }}</span>              <span>{{ comment.createdDate }}</span>            </div>            <div class="body" [innerHTML]="comment.summary">            </div>          </div>        </div>        <div class="input-box">            <p [froalaEditor]="commentConfig" class="comment-editor" [(froalaModel)]="issueComment"></p>          <button class="btn action-btn" (click)="onAddComment()">Add</button>        </div>      </div>    </div>    <div class="activity-wrap">      <h4>Activity Log</h4>      <div class="activity-box">        <div class="activities">          <div class="activity" *ngFor="let activity of issueDetails?.activity">            <p>{{ activity.summary }} on {{ activity.readableDate }}</p>          </div>        </div>      </div>    </div>  </div></aside></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ContactUsComponent', 'selector': 'app-contact-us'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'ForgotPasswordComponent', 'selector': 'app-forgot-password'},{'name': 'IssueComponent', 'selector': 'app-issue'},{'name': 'IssueFormComponent', 'selector': 'app-issue-form'},{'name': 'IssuesComponent', 'selector': 'app-issues'},{'name': 'NotificationsComponent', 'selector': 'app-notifications'},{'name': 'OverviewComponent', 'selector': 'app-overview'},{'name': 'PageNotFoundComponent', 'selector': 'app-page-not-found'},{'name': 'ProjectComponent', 'selector': 'app-project'},{'name': 'ProjectFormComponent', 'selector': 'app-project-form'},{'name': 'ProjectsComponent', 'selector': 'app-projects'},{'name': 'ResetPasswordComponent', 'selector': 'app-reset-password'},{'name': 'SidebarComponent', 'selector': 'app-sidebar'},{'name': 'SignInComponent', 'selector': 'app-sign-in'},{'name': 'SignUpComponent', 'selector': 'app-sign-up'},{'name': 'StatisticsComponent', 'selector': 'app-statistics'},{'name': 'WelcomeComponent', 'selector': 'app-welcome'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'IssueComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'IssueComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
